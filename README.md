@@ -19,6 +19,8 @@ It's great to see the results since I now feel like I really understand what tes
 I got splines and interpolation working. You can download the runnable and edit domainshader.hlsl to switch between them or add different subdivision schemes.
 
 [Video](https://drive.google.com/open?id=0B6zqLLI5AaSjX2htaGZ5UGVaLVE)
+
+[Runnable Executable](https://github.com/mld2443/RealtimeSubdivisionSurfaces/releases/tag/1.1) *Requires DX11 runtime*
 ### Analysis
 #### New results
 Being honest, there's not a whole lot here that hasn't been done before. What I've implemented is arguably what Direct3D 11 was made for (it introduced tesselation to the DirectX API). My simulation was not hardware accelerated itself, although as I'm writing this, I realize now it could have been, (pass the particles in to the the shaders and perform calculations in either the hull or vertex shaders). 
